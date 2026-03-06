@@ -12,9 +12,17 @@ class Myfirstpage extends StatelessWidget {
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
-      body: Text(
-        "yo",
-        style: TextStyle(fontSize: 32.0, color: Colors.deepOrange),
+      body: Column(
+        children: const [
+          Text(
+            "yo",
+            style: TextStyle(fontSize: 32.0, color: Colors.deepOrange),
+          ),
+          Text(
+            "4eme gl",
+            style: TextStyle(fontSize: 32.0, color: Colors.deepOrange),
+          ),
+        ],
       ),
     );
   }
